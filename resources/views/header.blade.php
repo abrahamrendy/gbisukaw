@@ -43,7 +43,7 @@
                 <div id="main-nav" class="collapse navbar-collapse">
                     <ul class="nav navbar-nav">
                         <li><a href="{{route('about')}}">About Us</a></li>
-                        <li><a href="#">Location</a></li>
+                        <li><a href="{{route('location')}}">Location</a></li>
                         <li><a href="{{route('online_services')}}">Online Services</a></li>
                         <li><a href="{{route('articles')}}">Articles</a></li>
                         <li><a href="{{route('contact_us')}}">Contact Us</a></li>

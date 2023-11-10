@@ -15,6 +15,7 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', [App\Http\Controllers\IndexController::class, 'index'])->name('index');
 Route::get('/about', [App\Http\Controllers\AboutController::class, 'index'])->name('about');
+Route::get('/location', [App\Http\Controllers\LocationController::class, 'index'])->name('location');
 Route::get('/online_services', [App\Http\Controllers\OnlineServicesController::class, 'index'])->name('online_services');
 Route::get('/articles', [App\Http\Controllers\ArticleController::class, 'index'])->name('articles');
 Route::get('/articles/single', [App\Http\Controllers\ArticleController::class, 'single'])->name('article_single');
