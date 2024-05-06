@@ -59,59 +59,51 @@
         </div>
         <br><br><br>
         <div class="row">
-            <div class="col-md-4">
+            <div class="col-md-12">
                 <div style="height: 400px; background-color: #7F7F7F;">
 
                 </div>
                 <div>
-                    <h4><b>LOREM IPSUM</b></h4>
-                    <p>Dolor sit amet</p>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div style="height: 400px; background-color: #7F7F7F;">
-
-                </div>
-                <div>
-                    <h4><b>LOREM IPSUM</b></h4>
-                    <p>Dolor sit amet</p>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div style="height: 400px; background-color: #7F7F7F;">
-
-                </div>
-                <div>
-                    <h4><b>LOREM IPSUM</b></h4>
-                    <p>Dolor sit amet</p>
+                    <h4><b>Pdt. DR. Niko Njotorahardjo</b></h4>
+                    <p>Senior Pastor</p>
                 </div>
             </div>
 
-            <div class="col-md-4">
+            <div class="col-md-6">
                 <div style="height: 400px; background-color: #7F7F7F;">
 
                 </div>
                 <div>
-                    <h4><b>LOREM IPSUM</b></h4>
-                    <p>Dolor sit amet</p>
+                    <h4><b>Pdt. Jhonny Lumanto</b></h4>
+                    <p>Associate Pastor</p>
                 </div>
             </div>
-            <div class="col-md-4">
+            <div class="col-md-6">
                 <div style="height: 400px; background-color: #7F7F7F;">
 
                 </div>
                 <div>
-                    <h4><b>LOREM IPSUM</b></h4>
-                    <p>Dolor sit amet</p>
+                    <h4><b>Pdt. Daniel Arief Sugianto</b></h4>
+                    <p>Associate Pastor</p>
                 </div>
             </div>
-            <div class="col-md-4">
+
+            <div class="col-md-6">
                 <div style="height: 400px; background-color: #7F7F7F;">
 
                 </div>
                 <div>
-                    <h4><b>LOREM IPSUM</b></h4>
-                    <p>Dolor sit amet</p>
+                    <h4><b>Pdt. Stevannus Yordan</b></h4>
+                    <p>Associate Pastor</p>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div style="height: 400px; background-color: #7F7F7F;">
+
+                </div>
+                <div>
+                    <h4><b>Pdt. Fandy M. Latif</b></h4>
+                    <p>Associate Pastor</p>
                 </div>
             </div>
         </div>

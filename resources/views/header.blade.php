@@ -45,7 +45,7 @@
                         <li><a href="{{route('about')}}">About Us</a></li>
                         <li><a href="{{route('location')}}">Location</a></li>
                         <li><a href="{{route('online_services')}}">Online Services</a></li>
-                        <li><a href="{{route('articles')}}">Articles</a></li>
+                        <!-- <li><a href="{{route('articles')}}">Articles</a></li> -->
                         <li><a href="{{route('contact_us')}}">Contact Us</a></li>
 
                         <!-- <li><a href="#" class="scroll-top">Home</a></li>

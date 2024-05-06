@@ -3,7 +3,8 @@
 <div id="what-we-do">
     <div class="container">
         <div class="row">
-            <div class="col-md-6">
+            <img src="{{url('/img')}}/section-1.png">
+            <div class="col-md-6" style="display: none">
                 <div class="left-text">
                     <h4>New offers just arrived,<br>Get it now and take profit.</h4>
                     <p>Gochujang pitchfork post-ironic hammock kombucha fanny pack cronut. Raw denim chicharrones semiotics af truffaut pinterest. Distillery letterpress authentic adaptogen. Meditation schlitz humblebrag photo booth celiac cliche chartreuse.<br><br>Pinterest 90's wolf celiac dreamcatcher listicle deep v semiotics. Intelligentsia literally meggings trust fund put a bird on it. Shoreditch crucifix artisan pug shaman twee. Health goth bicycle rights retro iPhone.</p>
@@ -64,19 +65,23 @@
     <div class="container">
         <div class="row">
             <div class="col-md-12">
-                <div class="col-md-6">
-                </div>
-                <div class="col-md-6">
+                <div class="section-heading">
                     <h3>PASTOR MESSAGE</h3>
                     <div class="line-dec"></div>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent tristique nisi at eleifend porta. Nulla velit quam, gravida non est vitae, auctor tincidunt metus. Etiam nec mollis est. Mauris in diam hendrerit, laoreet metus sed, malesuada lectus. Cras commodo aliquam lacus, ac vestibulum nulla bibendum nec. Donec mattis porta est id ornare. Quisque a neque ac neque ullamcorper malesuada. Proin ullamcorper sem sit amet dui tincidunt, consectetur vulputate eros pretium. Donec mattis nulla et orci pulvinar aliquam. Ut scelerisque, nisl lacinia elementum porttitor, libero ex luctus diam, sit amet hendrerit ipsum ex ut nulla. Ut eu feugiat massa. Nam sed tincidunt felis, et lacinia nisl.</p>
-                    <ul>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <div class="col-md-12" style="text-align: center;">
+                    <iframe width="711.2" height="400" src="https://www.youtube.com/embed/TBP7U76wcQo?si=EcLsKnC5uR1RNoMd" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    <!-- <ul>
                         <li>
                             <div class="black-button">
                                 <a href="{{route('article_single')}}">Read More</a>
                             </div>
                         </li>
-                    </ul>
+                    </ul> -->
                 </div>
             </div>
         </div>
@@ -96,33 +101,55 @@
             </div>
         </div>
         <div class="row">
-            <div class="col-md-4 col-sm-6 col-xs-12">
-                <div class="service-item first-service">
-                    <!-- <div class="icon"></div> -->
-                    <h4>Lorem Ipsum</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent tristique nisi at eleifend porta.</p>
-                    <div class="black-button">
-                        <a href="#">Read More</a>
-                    </div>
-                </div>
-            </div>
-             <div class="col-md-4 col-sm-6 col-xs-12">
-                <div class="service-item second-service">
-                    <!-- <div class="icon"></div> -->
-                    <h4>Lorem Ipsum</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent tristique nisi at eleifend porta.</p>
-                    <div class="black-button">
-                        <a href="#">Read More</a>
-                    </div>
-                </div>
-            </div>
-             <div class="col-md-4 col-sm-6 col-xs-12">
-                <div class="service-item third-service">
-                    <!-- <div class="icon"></div> -->
-                    <h4>Lorem Ipsum</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent tristique nisi at eleifend porta.</p>
-                    <div class="black-button">
-                        <a href="#">Read More</a>
+            <div class="container">
+                <div class="row">
+                    <div class="slider">
+                        <div class="logos">
+                            <div class="col-md-3 col-sm-6 col-xs-12">
+                                <div class="service-item first-service fab">
+                                    <!-- <div class="icon"></div> -->
+                                    <iframe src="https://www.youtube.com/embed/videoseries?si=5r4GYJaYty67wm1W&amp;list=PLjnNJteNNTmwrs4IeHsjljVITs8MX7a7O" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                                    <h4>Ibadah Raya Online</h4>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent tristique nisi at eleifend porta.</p>
+                                    <div class="black-button">
+                                        <a href="#">Read More</a>
+                                    </div>
+                                </div>
+                            </div>
+                             <div class="col-md-3 col-sm-6 col-xs-12">
+                                <div class="service-item second-service fab">
+                                    <iframe src="https://www.youtube.com/embed/videoseries?si=yO584dPWmE8HCjsX&amp;list=PLjnNJteNNTmzOkRrIhgEJn3yxi0ZA4bES" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                                    <!-- <div class="icon"></div> -->
+                                    <h4>Healing Worship Online</h4>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent tristique nisi at eleifend porta.</p>
+                                    <div class="black-button">
+                                        <a href="#">Read More</a>
+                                    </div>
+                                </div>
+                            </div>
+                             <div class="col-md-3 col-sm-6 col-xs-12">
+                                <div class="service-item third-service fab">
+                                    <iframe src="https://www.youtube.com/embed/videoseries?si=G11c9x-bJlA4f8aJ&amp;list=PLbeerQLV3Lb5yPkgBovLyJE-X99m96SdH" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                                    <!-- <div class="icon"></div> -->
+                                    <h4>Legacy Youth Service</h4>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent tristique nisi at eleifend porta.</p>
+                                    <div class="black-button">
+                                        <a href="#">Read More</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-3 col-sm-6 col-xs-12">
+                                <div class="service-item third-service fab">
+                                    <iframe src="https://www.youtube.com/embed/videoseries?si=G11c9x-bJlA4f8aJ&amp;list=PLbeerQLV3Lb5yPkgBovLyJE-X99m96SdH" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                                    <!-- <div class="icon"></div> -->
+                                    <h4>Kids GBI Sukawarna</h4>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent tristique nisi at eleifend porta.</p>
+                                    <div class="black-button">
+                                        <a href="#">Read More</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -130,7 +157,7 @@
     </div>
 </div>
 
-<div id="blog" class="page-section">
+<div id="blog" class="page-section" style="display: none">
     <div class="container">
         <div class="row">
             <div class="col-md-12">
