@@ -28,18 +28,25 @@
                 </div>
                 <div class="col-md-6">
                     <div>
-                        <h4><b>Lorem Ipsum</b></h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent tristique nisi at eleifend porta. Nulla velit quam, gravida non est vitae, auctor tincidunt metus. Etiam nec mollis est. Mauris in diam hendrerit, laoreet metus sed, malesuada lectus. Cras commodo aliquam lacus, ac vestibulum nulla bibendum nec. Donec mattis porta est id ornare. Quisque a neque ac neque ullamcorper malesuada. Proin ullamcorper sem sit amet dui tincidunt, consectetur vulputate eros pretium. Donec mattis nulla et orci pulvinar aliquam. Ut scelerisque, nisl lacinia elementum porttitor, libero ex luctus diam, sit amet hendrerit ipsum ex ut nulla. Ut eu feugiat massa. Nam sed tincidunt felis, et lacinia nisl.</p>
+                        <h4><b>Profil</b></h4>
+                        <p>Sejarah berdirinya GBI Sukawarna Bandung tidak lepas dari jemaat Karsa Pemuda Jakarta. Pada tanggal, 4 September 1988 diadakan Ibadah Raya Perdana yang bertempat di Gedung Karsa Pemuda. Awalnya visi Tuhan untuk Pdt. DR. Ir. Niko Njotorahardjo, yaitu merestorasi Pondok Daud di seluruh Indonesia dan sampai kepada bangsa-bangsa lain dengan membangun kembali doa, pujian dan penyembahan.
+                        </p>
+                        <p>
+                        GBI Sukawarna merupakan “Buah Sulung” dari GBI Karsa Pemuda yang sekarang bernama GBI Gatot Subroto. Pada tanggal 17 Juni 1990 dibuka Ibadah Perdana yang bertempat di Gedung Wanita, Bandung dengan dihadiri lebih dari 1.000 orang. 
+                        </p>
+                        <p>
+                        Sungguh ini merupakan karya Roh Kudus! Bukan hasil usaha manusia tentunya. Sebab penambahan jemaat yang terus menerus terjadi di gereja ini. Dan hingga saat ini Tuhan terus tambahkan jiwa-jiwa baru untuk gereja ini.
+                        </p>
                     </div>
                     <br>
                     <div>
                         <h4><b>Visi</b></h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent tristique nisi at eleifend porta. Nulla velit quam, gravida non est vitae, auctor tincidunt metus. Etiam nec mollis est. Mauris in diam hendrerit, laoreet metus sed, malesuada lectus. Cras commodo aliquam lacus, ac vestibulum nulla bibendum nec. Donec mattis porta est id ornare. Quisque a neque ac neque ullamcorper malesuada. Proin ullamcorper sem sit amet dui tincidunt, consectetur vulputate eros pretium. Donec mattis nulla et orci pulvinar aliquam. Ut scelerisque, nisl lacinia elementum porttitor, libero ex luctus diam, sit amet hendrerit ipsum ex ut nulla. Ut eu feugiat massa. Nam sed tincidunt felis, et lacinia nisl.</p>
+                        <p><b>Yesaya 54:2-3:</b> “Lapangkanlah tempat kemahmu, dan bentangkanlah tenda tempat kediamanmu, janganlah menghematnya; panjangkanlah tali-tali kemahmu dan pancangkanlah kokoh-kokoh patok-patokmu! Sebab engkau akan mengembang ke kanan dan ke kiri, keturunanmu akan memperoleh tempat bangsa-bangsa, dan akan mendiami kota-kota yang sunyi.”</p>
                     </div>
                     <br>
                     <div>
                         <h4><b>Misi</b></h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent tristique nisi at eleifend porta. Nulla velit quam, gravida non est vitae, auctor tincidunt metus. Etiam nec mollis est. Mauris in diam hendrerit, laoreet metus sed, malesuada lectus. Cras commodo aliquam lacus, ac vestibulum nulla bibendum nec. Donec mattis porta est id ornare. Quisque a neque ac neque ullamcorper malesuada. Proin ullamcorper sem sit amet dui tincidunt, consectetur vulputate eros pretium. Donec mattis nulla et orci pulvinar aliquam. Ut scelerisque, nisl lacinia elementum porttitor, libero ex luctus diam, sit amet hendrerit ipsum ex ut nulla. Ut eu feugiat massa. Nam sed tincidunt felis, et lacinia nisl.</p>
+                        <p>Luk 1:17: “…. dan dengan demikian <b>menyiapkan bagi Tuhan suatu umat yang layak bagi-Nya.</b>”</p>
                     </div>
                 </div>
             </div>
@@ -65,45 +72,65 @@
                 </div>
                 <div>
                     <h4><b>Pdt. DR. Niko Njotorahardjo</b></h4>
-                    <p>Senior Pastor</p>
+                    <p>Gembala Sidang</p>
                 </div>
             </div>
 
-            <div class="col-md-6">
+            <div class="col-md-4">
+                <div style="height: 400px; background-color: #7F7F7F;">
+
+                </div>
+                <div>
+                    <h4><b>Pdt. Benny Gunawan</b></h4>
+                    <p>Pelaksana Gembala Harian</p>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div style="height: 400px; background-color: #7F7F7F;">
+
+                </div>
+                <div>
+                    <h4><b>Pdt. Karta Laksana Kamarga</b></h4>
+                    <p>Wakil Gembala</p>
+                </div>
+            </div>
+
+            <div class="col-md-4">
                 <div style="height: 400px; background-color: #7F7F7F;">
 
                 </div>
                 <div>
                     <h4><b>Pdt. Jhonny Lumanto</b></h4>
-                    <p>Associate Pastor</p>
+                    <p>Wakil Gembala</p>
                 </div>
             </div>
-            <div class="col-md-6">
+            <div class="col-md-4">
                 <div style="height: 400px; background-color: #7F7F7F;">
 
                 </div>
                 <div>
                     <h4><b>Pdt. Daniel Arief Sugianto</b></h4>
-                    <p>Associate Pastor</p>
+                    <p>Wakil Gembala</p>
                 </div>
             </div>
 
-            <div class="col-md-6">
+            <div class="col-md-4">
                 <div style="height: 400px; background-color: #7F7F7F;">
 
                 </div>
                 <div>
                     <h4><b>Pdt. Stevannus Yordan</b></h4>
-                    <p>Associate Pastor</p>
+                    <p>Wakil Gembala</p>
                 </div>
             </div>
-            <div class="col-md-6">
+            <div class="col-md-4">
                 <div style="height: 400px; background-color: #7F7F7F;">
 
                 </div>
                 <div>
                     <h4><b>Pdt. Fandy M. Latif</b></h4>
-                    <p>Associate Pastor</p>
+                    <p>Wakil Gembala</p>
                 </div>
             </div>
         </div>

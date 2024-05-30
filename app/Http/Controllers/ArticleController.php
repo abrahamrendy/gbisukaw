@@ -29,4 +29,9 @@ class ArticleController extends Controller
     {
         return view('article_single');
     }
+
+    public function three_s()
+    {
+        return view('3s');
+    }
 }

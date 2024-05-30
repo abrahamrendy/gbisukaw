@@ -19,6 +19,7 @@ Route::get('/location', [App\Http\Controllers\LocationController::class, 'index'
 Route::get('/online_services', [App\Http\Controllers\OnlineServicesController::class, 'index'])->name('online_services');
 Route::get('/articles', [App\Http\Controllers\ArticleController::class, 'index'])->name('articles');
 Route::get('/articles/single', [App\Http\Controllers\ArticleController::class, 'single'])->name('article_single');
+Route::get('/articles/3s', [App\Http\Controllers\ArticleController::class, 'three_s'])->name('3s');
 Route::get('/contact_us', [App\Http\Controllers\ContactUsController::class, 'index'])->name('contact_us');
 
 Auth::routes();

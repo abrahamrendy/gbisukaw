@@ -31,29 +31,29 @@
         <div class="row">
             <div class="col-md-4 col-sm-6 col-xs-12">
                 <div class="service-item first-service">
-                    <h4>Lorem Ipsum</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent tristique nisi at eleifend porta.</p>
+                    <h4>SMILE</h4>
+                    <p>Berikan senyuman kepada orang lain sebagai bentuk kasih kita kepada mereka.</p>
                     <div class="black-button">
-                        <a href="#">Read More</a>
+                        <a href="{{route('3s')}}">Read More</a>
                     </div>
                 </div>
 
             </div>
              <div class="col-md-4 col-sm-6 col-xs-12">
                 <div class="service-item second-service">
-                    <h4>Lorem Ipsum</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent tristique nisi at eleifend porta.</p>
+                    <h4>SPREAD THE LOVE</h4>
+                    <p>Bagikan kasihmu kepada banyak orang melalui perbuatan baik yang bisa kita lakukan bagi orang lain.</p>
                     <div class="black-button">
-                        <a href="#">Read More</a>
+                        <a href="{{route('3s')}}">Read More</a>
                     </div>
                 </div>
             </div>
              <div class="col-md-4 col-sm-6 col-xs-12">
                 <div class="service-item third-service">
-                    <h4>Lorem Ipsum</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent tristique nisi at eleifend porta.</p>
+                    <h4>SHALOM</h4>
+                    <p>Ucapkan salam damai sejahtera bagi banyak orang yang akan menjadi berkat bagi kehidupan mereka.</p>
                     <div class="black-button">
-                        <a href="#">Read More</a>
+                        <a href="{{route('3s')}}">Read More</a>
                     </div>
                 </div>
             </div>
@@ -110,9 +110,8 @@
                                     <!-- <div class="icon"></div> -->
                                     <iframe src="https://www.youtube.com/embed/videoseries?si=5r4GYJaYty67wm1W&amp;list=PLjnNJteNNTmwrs4IeHsjljVITs8MX7a7O" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                                     <h4>Ibadah Raya Online</h4>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent tristique nisi at eleifend porta.</p>
                                     <div class="black-button">
-                                        <a href="#">Read More</a>
+                                        <a href="{{route('online_services')}}">Find Out More</a>
                                     </div>
                                 </div>
                             </div>
@@ -121,9 +120,8 @@
                                     <iframe src="https://www.youtube.com/embed/videoseries?si=yO584dPWmE8HCjsX&amp;list=PLjnNJteNNTmzOkRrIhgEJn3yxi0ZA4bES" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                                     <!-- <div class="icon"></div> -->
                                     <h4>Healing Worship Online</h4>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent tristique nisi at eleifend porta.</p>
                                     <div class="black-button">
-                                        <a href="#">Read More</a>
+                                        <a href="{{route('online_services')}}">Find Out More</a>
                                     </div>
                                 </div>
                             </div>
@@ -132,9 +130,8 @@
                                     <iframe src="https://www.youtube.com/embed/videoseries?si=G11c9x-bJlA4f8aJ&amp;list=PLbeerQLV3Lb5yPkgBovLyJE-X99m96SdH" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                                     <!-- <div class="icon"></div> -->
                                     <h4>Legacy Youth Service</h4>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent tristique nisi at eleifend porta.</p>
                                     <div class="black-button">
-                                        <a href="#">Read More</a>
+                                        <a href="{{route('online_services')}}">Find Out More</a>
                                     </div>
                                 </div>
                             </div>
@@ -143,9 +140,8 @@
                                     <iframe src="https://www.youtube.com/embed/videoseries?si=G11c9x-bJlA4f8aJ&amp;list=PLbeerQLV3Lb5yPkgBovLyJE-X99m96SdH" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                                     <!-- <div class="icon"></div> -->
                                     <h4>Kids GBI Sukawarna</h4>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent tristique nisi at eleifend porta.</p>
                                     <div class="black-button">
-                                        <a href="#">Read More</a>
+                                        <a href="{{route('online_services')}}">Find Out More</a>
                                     </div>
                                 </div>
                             </div>

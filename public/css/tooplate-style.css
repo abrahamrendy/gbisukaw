@@ -755,6 +755,24 @@ iframe {
 	transition: all 0.3s;
 }
 
+/* ARTICLE */
+
+.article-content{
+	width: 80%;
+}
+
+.article-content ol {
+	color: #5a5a5a;
+  font-size: 16px;
+  letter-spacing: 0.25px;
+  line-height: 24px;
+  margin-left: 40pt;
+}
+
+.article-content ol li {
+	font-weight: 700;
+}
+
 
 /* FOOTER */
 
