@@ -5,7 +5,8 @@
 
     :root {
       /* Colors */
-      --brand-color: hsl(46, 100%, 50%);
+      /*--brand-color: hsl(46, 100%, 50%);*/
+      --brand-color: hsl(0, 0%, 100%);
       --black: hsl(0, 0%, 0%);
       --white: hsl(0, 0%, 100%);
       /* Fonts */
@@ -29,10 +30,13 @@
       margin: 0;
     }
 
-    
+    hr {
+      margin-top: 10px;
+      margin-bottom: 10px;
+    }
 
     h2 {
-      font-size: 3.25rem;
+      font-size: 2.5rem;
       font-family: var(--font-title);
       color: var(--white);
       line-height: 1.1;
@@ -51,6 +55,18 @@
 
     .flow > * + * {
       margin-top: var(--flow-space, 1em);
+    }
+
+    .p-0 {
+      padding: 0px;
+    }
+
+    .pr-0 {
+      padding-right: 0px;
+    }
+
+    .pl-0 {
+      padding-left: 0px;
     }
 
     /* CARD COMPONENT */
@@ -83,7 +99,8 @@
       flex-direction: column;
       justify-content: space-between;
       align-self: flex-end;
-      height: 75%;
+      height: 80%;
+      width: 100%;
       padding: 12% 1.25rem 1.875rem;
       background: linear-gradient(
         180deg,
@@ -132,6 +149,15 @@
       outline-offset: -5px;
     }
 
+    .white-button {
+      padding: 3px 6px !important;
+      font-size: 10px !important;
+    }
+
+    .card__desc__top{
+      font-size: 12px !important;
+    }
+
     @media (any-hover: hover) and (any-pointer: fine) {
       .card__content {
         transform: translateY(62%);
@@ -176,6 +202,8 @@
       .card:hover .card__background,
       .card:focus-within .card__background {
         transform: scale(1.3);
+        webkit-filter: blur(4px); /* Chrome, Safari, Opera */
+        filter: blur(4px);
       }
 
       .card:hover .card__content--container > :not(.card__title),
@@ -218,134 +246,583 @@
 <div id="our-pastor" class="page-section">
     <div class="container">
         <div class="row">
+            <!-- ARUNA -->
             <div class="col-md-4">
                 <article class="card">
                   <img
                     class="card__background"
-                    src="https://i.imgur.com/QYWAcXk.jpeg"
+                    src="{{url('/img')}}/Aruna copy.jpg"
                     alt="Photo of Cartagena's cathedral at the background and some colonial style houses"
                     width="1920"
                     height="2193"
                   />
                   <div class="card__content | flow">
                     <div class="card__content--container | flow">
-                      <h2 class="card__title">Colombia</h2>
-                      <p class="card__description">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum in
-                        labore laudantium deserunt fugiat numquam.
-                      </p>
+                      <h2 class="card__title">Aruna</h2>
+                      <div class="card__description">
+                        <div class="white-button card__desc__top" style="padding-left: 0px !important;">
+                            <a href="#" class="white-button card__desc__top"><i class="fa fa-map-marker"></i></a>
+                            <span style="color: white; margin-left: 5px;">Jl. Aruna No.19, Bandung</span>
+                        </div>
+                        <div class="white-button card__desc__top" style="padding-left: 0px !important;">
+                            <a href="#" class="white-button"><i class="fa fa-clock-o"></i></a>
+                            <span style="color: white; margin-left: 5px;">08.00 | 10.15 | 12.34 | 15.00 | 17.00 </span>
+                        </div>
+                        <hr>
+                        <!-- CP -->
+                        <div class="row">
+                          <div class="col-md-12 p-0">
+                            <div class="col-md-6 pr-0">
+                              <div class="white-button" style="padding-left: 0px !important;">
+                                  <a href="#" class="white-button"><i class="fa fa-instagram"></i></a>
+                                  <span style="color: white; margin-left: 5px;">sukawarna.aruna1</span>
+                              </div>
+                              <div class="white-button" style="padding-left: 0px !important;">
+                                  <a href="#" class="white-button"><i class="fa fa-phone"></i></a>
+                                  <span style="color: white; margin-left: 5px;">08993228226</span>
+                              </div>
+                            </div>
+                            <div class="col-md-6 pr-0">
+                              <div class="white-button" style="padding-left: 0px !important;">
+                                  <a href="#" class="white-button"><i class="fa fa-instagram"></i></a>
+                                  <span style="color: white; margin-left: 5px;">gbiaruna2</span>
+                              </div>
+                              <div class="white-button" style="padding-left: 0px !important;">
+                                  <a href="#" class="white-button"><i class="fa fa-phone"></i></a>
+                                  <span style="color: white; margin-left: 5px;">08993228226</span>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <hr>
+                        <div class="row">
+                          <div class="col-md-12 p-0">
+                            <div class="col-md-6 pr-0">
+                              <div class="white-button" style="padding-left: 0px !important;">
+                                  <a href="#" class="white-button"><i class="fa fa-instagram"></i></a>
+                                  <span style="color: white; margin-left: 5px;">gbiaruna3pm </span>
+                              </div>
+                              <div class="white-button" style="padding-left: 0px !important;">
+                                  <a href="#" class="white-button"><i class="fa fa-phone"></i></a>
+                                  <span style="color: white; margin-left: 5px;">089606033888</span>
+                              </div>
+                            </div>
+                            <div class="col-md-6 pr-0">
+                              <div class="white-button" style="padding-left: 0px !important;">
+                                  <a href="#" class="white-button"><i class="fa fa-instagram"></i></a>
+                                  <span style="color: white; margin-left: 5px;">sukawarna.aruna5</span>
+                              </div>
+                              <div class="white-button" style="padding-left: 0px !important;">
+                                  <a href="#" class="white-button"><i class="fa fa-phone"></i></a>
+                                  <span style="color: white; margin-left: 5px;">085795200925</span>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <!-- END CP -->
+                      </div>
+                    </div>
+                  </div>
+                </article>
+            </div>
+
+            <!-- BARSI -->
+            <div class="col-md-4">
+                <article class="card">
+                  <img
+                    class="card__background"
+                    src="{{url('/img')}}/Baranangsiang copy.jpg"
+                    alt="Photo of Cartagena's cathedral at the background and some colonial style houses"
+                    width="1920"
+                    height="2193"
+                  />
+                  <div class="card__content | flow">
+                    <div class="card__content--container | flow">
+                      <h2 class="card__title">Baranangsiang</h2>
+                      <div class="card__description">
+                        <div class="white-button card__desc__top" style="padding-left: 0px !important;">
+                            <a href="#" class="white-button card__desc__top"><i class="fa fa-map-marker"></i></a>
+                            <span style="color: white; margin-left: 5px;">Ruko ITC Kosambi, Jl. Baranang Siang No.8, Bandung</span>
+                        </div>
+                        <div class="white-button card__desc__top" style="padding-left: 0px !important;">
+                            <a href="#" class="white-button card__desc__top"><i class="fa fa-clock-o"></i></a>
+                            <span style="color: white; margin-left: 5px;">07.30 | 10.00 | 13.00 | 15.00 | 17.00 </span>
+                        </div>
+                        <hr>
+                        <!-- CP -->
+                        <div class="row">
+                          <div class="col-md-12 p-0">
+                            <div class="col-md-6 pr-0">
+                              <div class="white-button" style="padding-left: 0px !important;">
+                                  <a href="#" class="white-button"><i class="fa fa-instagram"></i></a>
+                                  <span style="color: white; margin-left: 5px;">sukawarna.gbi.baranangsiang</span>
+                              </div>
+                              <div class="white-button" style="padding-left: 0px !important;">
+                                  <a href="#" class="white-button"><i class="fa fa-phone"></i></a>
+                                  <span style="color: white; margin-left: 5px;">087819717181</span>
+                              </div>
+                            </div>
+                            <div class="col-md-6 pr-0">
+                              <div class="white-button" style="padding-left: 0px !important;">
+                                  <a href="#" class="white-button"><i class="fa fa-instagram"></i></a>
+                                  <span style="color: white; margin-left: 5px;">nextgen.baranangsiang</span>
+                              </div>
+                              <div class="white-button" style="padding-left: 0px !important;">
+                                  <a href="#" class="white-button"><i class="fa fa-phone"></i></a>
+                                  <span style="color: white; margin-left: 5px;">087819717181</span>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <hr>
+                        <div class="row">
+                          <div class="col-md-12 p-0">
+                            <div class="col-md-6 pr-0">
+                              <div class="white-button" style="padding-left: 0px !important;">
+                                  <a href="#" class="white-button"><i class="fa fa-instagram"></i></a>
+                                  <span style="color: white; margin-left: 5px;">sukawarna.barsi3pm</span>
+                              </div>
+                              <div class="white-button" style="padding-left: 0px !important;">
+                                  <a href="#" class="white-button"><i class="fa fa-phone"></i></a>
+                                  <span style="color: white; margin-left: 5px;">082115252533</span>
+                              </div>
+                            </div>
+                            <div class="col-md-6 pr-0">
+                              <div class="white-button" style="padding-left: 0px !important;">
+                                  <a href="#" class="white-button"><i class="fa fa-instagram"></i></a>
+                                  <span style="color: white; margin-left: 5px;">sukawarna.bec</span>
+                              </div>
+                              <div class="white-button" style="padding-left: 0px !important;">
+                                  <a href="#" class="white-button"><i class="fa fa-phone"></i></a>
+                                  <span style="color: white; margin-left: 5px;">087823420950</span>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <!-- END CP -->
+                      </div>
+                    </div>
+                  </div>
+                </article>
+            </div>
+
+            <!-- DAGO -->
+            <div class="col-md-4">
+                <article class="card">
+                  <img
+                    class="card__background"
+                    src="{{url('/img')}}/Dago copy.jpg"
+                    alt="Photo of Cartagena's cathedral at the background and some colonial style houses"
+                    width="1920"
+                    height="2193"
+                  />
+                  <div class="card__content | flow">
+                    <div class="card__content--container | flow">
+                      <h2 class="card__title">Dago</h2>
+                      <div class="card__description">
+                        <div class="white-button card__desc__top" style="padding-left: 0px !important;">
+                            <a href="#" class="white-button card__desc__top"><i class="fa fa-map-marker"></i></a>
+                            <span style="color: white; margin-left: 5px;">Hotel Patra, Jl. Ir. H. Juanda No.132, Bandung</span>
+                        </div>
+                        <div class="white-button card__desc__top" style="padding-left: 0px !important;">
+                            <a href="#" class="white-button card__desc__top"><i class="fa fa-clock-o"></i></a>
+                            <span style="color: white; margin-left: 5px;">09.00 | 11.00</span>
+                        </div>
+                        <hr>
+                        <!-- CP -->
+                        <div class="row">
+                          <div class="col-md-12 p-0">
+                            <div class="col-md-6 pr-0">
+                              <div class="white-button card__desc__top" style="padding-left: 0px !important;">
+                                  <a href="#" class="white-button card__desc__top"><i class="fa fa-instagram"></i></a>
+                                  <span style="color: white; margin-left: 5px;">sukawarna.dago</span>
+                              </div>
+                              <div class="white-button card__desc__top" style="padding-left: 0px !important;">
+                                  <a href="#" class="white-button card__desc__top"><i class="fa fa-phone"></i></a>
+                                  <span style="color: white; margin-left: 5px;">082240034001</span>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <!-- END CP -->
+                      </div>
+                    </div>
+                  </div>
+                </article>
+            </div>
+
+            <!-- GEDEBAGE -->
+            <div class="col-md-4">
+                <article class="card">
+                  <img
+                    class="card__background"
+                    src="{{url('/img')}}/Gedebage copy.jpg"
+                    alt="Photo of Cartagena's cathedral at the background and some colonial style houses"
+                    width="1920"
+                    height="2193"
+                  />
+                  <div class="card__content | flow">
+                    <div class="card__content--container | flow">
+                      <h2 class="card__title">Gedebage</h2>
+                      <div class="card__description">
+                        <div class="white-button card__desc__top" style="padding-left: 0px !important;">
+                            <a href="#" class="white-button card__desc__top"><i class="fa fa-map-marker"></i></a>
+                            <span style="color: white; margin-left: 5px;">Ruang Serbaguna Eloah Function Hall,Metro Indah Mall, Jl. Soekarno Hatta No.590, Bandung</span>
+                        </div>
+                        <div class="white-button card__desc__top" style="padding-left: 0px !important;">
+                            <a href="#" class="white-button card__desc__top"><i class="fa fa-clock-o"></i></a>
+                            <span style="color: white; margin-left: 5px;">09.00 | 10.45 | 12.30 | 17.00</span>
+                        </div>
+                        <hr>
+                        <!-- CP -->
+                        <div class="row">
+                          <div class="col-md-12 p-0">
+                            <div class="col-md-6 pr-0">
+                              <div class="white-button card__desc__top" style="padding-left: 0px !important;">
+                                  <a href="#" class="white-button card__desc__top"><i class="fa fa-instagram"></i></a>
+                                  <span style="color: white; margin-left: 5px;">gbigedebage</span>
+                              </div>
+                              <div class="white-button card__desc__top" style="padding-left: 0px !important;">
+                                  <a href="#" class="white-button card__desc__top"><i class="fa fa-phone"></i></a>
+                                  <span style="color: white; margin-left: 5px;">081386826787</span>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <!-- END CP -->
+                      </div>
                     </div>
                     <button class="card__button">Read more</button>
                   </div>
                 </article>
             </div>
 
+            <!-- HARRIS POP -->
             <div class="col-md-4">
                 <article class="card">
                   <img
                     class="card__background"
-                    src="https://i.imgur.com/QYWAcXk.jpeg"
+                    src="{{url('/img')}}/Harris Pop copy.jpg"
                     alt="Photo of Cartagena's cathedral at the background and some colonial style houses"
                     width="1920"
                     height="2193"
                   />
                   <div class="card__content | flow">
                     <div class="card__content--container | flow">
-                      <h2 class="card__title">Colombia</h2>
-                      <p class="card__description">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum in
-                        labore laudantium deserunt fugiat numquam.
-                      </p>
+                      <h2 class="card__title">Harris Pop</h2>
+                      <div class="card__description">
+                        <div class="white-button card__desc__top" style="padding-left: 0px !important;">
+                            <a href="#" class="white-button card__desc__top"><i class="fa fa-map-marker"></i></a>
+                            <span style="color: white; margin-left: 5px;">Hotel Harris, Jl. Peta No.241, Bandung</span>
+                        </div>
+                        <div class="white-button card__desc__top" style="padding-left: 0px !important;">
+                            <a href="#" class="white-button card__desc__top"><i class="fa fa-clock-o"></i></a>
+                            <span style="color: white; margin-left: 5px;">08.00 | 09.30 | 11.00</span>
+                        </div>
+                        <hr>
+                        <!-- CP -->
+                        <div class="row">
+                          <div class="col-md-12 p-0">
+                            <div class="col-md-6 pr-0">
+                              <div class="white-button card__desc__top" style="padding-left: 0px !important;">
+                                  <a href="#" class="white-button card__desc__top"><i class="fa fa-instagram"></i></a>
+                                  <span style="color: white; margin-left: 5px;">sukawarna.harrisyello</span>
+                              </div>
+                              <div class="white-button card__desc__top" style="padding-left: 0px !important;">
+                                  <a href="#" class="white-button card__desc__top"><i class="fa fa-phone"></i></a>
+                                  <span style="color: white; margin-left: 5px;">08566204451</span>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <!-- END CP -->
+                      </div>
                     </div>
-                    <button class="card__button">Read more</button>
                   </div>
                 </article>
             </div>
 
+            <!-- ISTANA PLAZA -->
             <div class="col-md-4">
                 <article class="card">
                   <img
                     class="card__background"
-                    src="https://i.imgur.com/QYWAcXk.jpeg"
+                    src="{{url('/img')}}/Istana Plaza copy.jpg"
                     alt="Photo of Cartagena's cathedral at the background and some colonial style houses"
                     width="1920"
                     height="2193"
                   />
                   <div class="card__content | flow">
                     <div class="card__content--container | flow">
-                      <h2 class="card__title">Colombia</h2>
-                      <p class="card__description">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum in
-                        labore laudantium deserunt fugiat numquam.
-                      </p>
+                      <h2 class="card__title">Istana Plaza</h2>
+                      <div class="card__description">
+                        <div class="white-button card__desc__top" style="padding-left: 0px !important;">
+                            <a href="#" class="white-button card__desc__top"><i class="fa fa-map-marker"></i></a>
+                            <span style="color: white; margin-left: 5px;">Istana Plaza, Jl. Pasir Kaliki No.121-123, Bandung</span>
+                        </div>
+                        <div class="white-button card__desc__top" style="padding-left: 0px !important;">
+                            <a href="#" class="white-button card__desc__top"><i class="fa fa-clock-o"></i></a>
+                            <span style="color: white; margin-left: 5px;">10.00 | 17.00</span>
+                        </div>
+                        <hr>
+                        <!-- CP -->
+                        <div class="row">
+                          <div class="col-md-12 p-0">
+                            <div class="col-md-8 pr-0">
+                              <div class="white-button card__desc__top" style="padding-left: 0px !important;">
+                                  <a href="#" class="white-button card__desc__top"><i class="fa fa-instagram"></i></a>
+                                  <span style="color: white; margin-left: 5px;">istana_plaza_regency_4</span>
+                              </div>
+                              <div class="white-button card__desc__top" style="padding-left: 0px !important;">
+                                  <a href="#" class="white-button card__desc__top"><i class="fa fa-phone"></i></a>
+                                  <span style="color: white; margin-left: 5px;">081220485802</span>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <!-- END CP -->
+                      </div>
                     </div>
-                    <button class="card__button">Read more</button>
                   </div>
                 </article>
             </div>
 
+            <!-- ISTANA REGENSI -->
             <div class="col-md-4">
                 <article class="card">
                   <img
                     class="card__background"
-                    src="https://i.imgur.com/QYWAcXk.jpeg"
+                    src="{{url('/img')}}/Istana Regensi copy.jpg"
                     alt="Photo of Cartagena's cathedral at the background and some colonial style houses"
                     width="1920"
                     height="2193"
                   />
                   <div class="card__content | flow">
                     <div class="card__content--container | flow">
-                      <h2 class="card__title">Colombia</h2>
-                      <p class="card__description">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum in
-                        labore laudantium deserunt fugiat numquam.
-                      </p>
+                      <h2 class="card__title">Istana Regensi</h2>
+                      <div class="card__description">
+                        <div class="white-button card__desc__top" style="padding-left: 0px !important;">
+                            <a href="#" class="white-button card__desc__top"><i class="fa fa-map-marker"></i></a>
+                            <span style="color: white; margin-left: 5px;">Jl. Sukawarna, Komp. Istana Regency 1 Kav. C3 No. 1, Bandung</span>
+                        </div>
+                        <div class="white-button card__desc__top" style="padding-left: 0px !important;">
+                            <a href="#" class="white-button card__desc__top"><i class="fa fa-clock-o"></i></a>
+                            <span style="color: white; margin-left: 5px;">08.00 | 10.00 | 12.00</span>
+                        </div>
+                        <hr>
+                        <!-- CP -->
+                        <div class="row">
+                          <div class="col-md-12 p-0">
+                            <div class="col-md-8 pr-0">
+                              <div class="white-button card__desc__top" style="padding-left: 0px !important;">
+                                  <a href="#" class="white-button card__desc__top"><i class="fa fa-instagram"></i></a>
+                                  <span style="color: white; margin-left: 5px;">sukawarna.regency.pagi</span>
+                              </div>
+                              <div class="white-button card__desc__top" style="padding-left: 0px !important;">
+                                  <a href="#" class="white-button card__desc__top"><i class="fa fa-phone"></i></a>
+                                  <span style="color: white; margin-left: 5px;">085798617774</span>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <!-- END CP -->
+                      </div>
                     </div>
-                    <button class="card__button">Read more</button>
                   </div>
                 </article>
             </div>
 
+            <!-- PVJ -->
             <div class="col-md-4">
                 <article class="card">
                   <img
                     class="card__background"
-                    src="https://i.imgur.com/QYWAcXk.jpeg"
+                    src="{{url('/img')}}/Paris van Java copy.jpg"
                     alt="Photo of Cartagena's cathedral at the background and some colonial style houses"
                     width="1920"
                     height="2193"
                   />
                   <div class="card__content | flow">
                     <div class="card__content--container | flow">
-                      <h2 class="card__title">Colombia</h2>
-                      <p class="card__description">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum in
-                        labore laudantium deserunt fugiat numquam.
-                      </p>
+                      <h2 class="card__title">Paris van Java</h2>
+                      <div class="card__description">
+                        <div class="white-button card__desc__top" style="padding-left: 0px !important;">
+                            <a href="#" class="white-button card__desc__top"><i class="fa fa-map-marker"></i></a>
+                            <span style="color: white; margin-left: 5px;">Mall Paris van Java, Jl. Sukajadi No.137-139, Bandung</span>
+                        </div>
+                        <div class="white-button card__desc__top" style="padding-left: 0px !important;">
+                            <a href="#" class="white-button card__desc__top"><i class="fa fa-clock-o"></i></a>
+                            <span style="color: white; margin-left: 5px;">08.30 | 10.30 | 13.00</span>
+                        </div>
+                        <hr>
+                        <!-- CP -->
+                        <div class="row">
+                          <div class="col-md-12 p-0">
+                            <div class="col-md-8 pr-0">
+                              <div class="white-button card__desc__top" style="padding-left: 0px !important;">
+                                  <a href="#" class="white-button card__desc__top"><i class="fa fa-instagram"></i></a>
+                                  <span style="color: white; margin-left: 5px;">everyone_connected</span>
+                              </div>
+                              <div class="white-button card__desc__top" style="padding-left: 0px !important;">
+                                  <a href="#" class="white-button card__desc__top"><i class="fa fa-phone"></i></a>
+                                  <span style="color: white; margin-left: 5px;">08991889900</span>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <!-- END CP -->
+                      </div>
                     </div>
-                    <button class="card__button">Read more</button>
                   </div>
                 </article>
             </div>
 
+            <!-- PISET -->
             <div class="col-md-4">
                 <article class="card">
                   <img
                     class="card__background"
-                    src="https://i.imgur.com/QYWAcXk.jpeg"
+                    src="{{url('/img')}}/Piset copy.jpg"
                     alt="Photo of Cartagena's cathedral at the background and some colonial style houses"
                     width="1920"
                     height="2193"
                   />
                   <div class="card__content | flow">
                     <div class="card__content--container | flow">
-                      <h2 class="card__title">Colombia</h2>
-                      <p class="card__description">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum in
-                        labore laudantium deserunt fugiat numquam.
-                      </p>
+                      <h2 class="card__title">Piset</h2>
+                      <div class="card__description">
+                        <div class="white-button card__desc__top" style="padding-left: 0px !important;">
+                            <a href="#" class="white-button card__desc__top"><i class="fa fa-map-marker"></i></a>
+                            <span style="color: white; margin-left: 5px;">Jl. Pelajar Pejuang 45 No.119, Bandung</span>
+                        </div>
+                        <div class="white-button card__desc__top" style="padding-left: 0px !important;">
+                            <a href="#" class="white-button card__desc__top"><i class="fa fa-clock-o"></i></a>
+                            <span style="color: white; margin-left: 5px;">08.30 | 10.30 | 13.00</span>
+                        </div>
+                        <hr>
+                        <!-- CP -->
+                        <div class="row">
+                          <div class="col-md-12 p-0">
+                            <div class="col-md-8 pr-0">
+                              <div class="white-button card__desc__top" style="padding-left: 0px !important;">
+                                  <a href="#" class="white-button card__desc__top"><i class="fa fa-instagram"></i></a>
+                                  <span style="color: white; margin-left: 5px;">gbipiset</span>
+                              </div>
+                              <div class="white-button card__desc__top" style="padding-left: 0px !important;">
+                                  <a href="#" class="white-button card__desc__top"><i class="fa fa-phone"></i></a>
+                                  <span style="color: white; margin-left: 5px;">0818629293</span>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <hr>
+                        <div class="row">
+                          <div class="col-md-12 p-0">
+                            <div class="col-md-8 pr-0">
+                              <div class="white-button card__desc__top" style="padding-left: 0px !important;">
+                                  <a href="#" class="white-button card__desc__top"><i class="fa fa-instagram"></i></a>
+                                  <span style="color: white; margin-left: 5px;">gbipiset.community</span>
+                              </div>
+                              <div class="white-button card__desc__top" style="padding-left: 0px !important;">
+                                  <a href="#" class="white-button card__desc__top"><i class="fa fa-phone"></i></a>
+                                  <span style="color: white; margin-left: 5px;">081313132681</span>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <!-- END CP -->
+                      </div>
                     </div>
-                    <button class="card__button">Read more</button>
+                  </div>
+                </article>
+            </div>
+
+            <!-- TRANS -->
+            <div class="col-md-4">
+                <article class="card">
+                  <img
+                    class="card__background"
+                    src="{{url('/img')}}/Trans copy.jpg"
+                    alt="Photo of Cartagena's cathedral at the background and some colonial style houses"
+                    width="1920"
+                    height="2193"
+                  />
+                  <div class="card__content | flow">
+                    <div class="card__content--container | flow">
+                      <h2 class="card__title">Trans</h2>
+                      <div class="card__description">
+                        <div class="white-button card__desc__top" style="padding-left: 0px !important;">
+                            <a href="#" class="white-button card__desc__top"><i class="fa fa-map-marker"></i></a>
+                            <span style="color: white; margin-left: 5px;">Trans Studio Mall, Jl. Gatot Subroto No.289, Bandung</span>
+                        </div>
+                        <div class="white-button card__desc__top" style="padding-left: 0px !important;">
+                            <a href="#" class="white-button card__desc__top"><i class="fa fa-clock-o"></i></a>
+                            <span style="color: white; margin-left: 5px;">09.00 | 11.00</span>
+                        </div>
+                        <hr>
+                        <!-- CP -->
+                        <div class="row">
+                          <div class="col-md-12 p-0">
+                            <div class="col-md-8 pr-0">
+                              <div class="white-button card__desc__top" style="padding-left: 0px !important;">
+                                  <a href="#" class="white-button card__desc__top"><i class="fa fa-instagram"></i></a>
+                                  <span style="color: white; margin-left: 5px;">sukawarna.trans</span>
+                              </div>
+                              <div class="white-button card__desc__top" style="padding-left: 0px !important;">
+                                  <a href="#" class="white-button card__desc__top"><i class="fa fa-phone"></i></a>
+                                  <span style="color: white; margin-left: 5px;">08993228226</span>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <!-- END CP -->
+                      </div>
+                    </div>
+                  </div>
+                </article>
+            </div>
+
+            <!-- YELLO -->
+            <div class="col-md-4">
+                <article class="card">
+                  <img
+                    class="card__background"
+                    src="{{url('/img')}}/Yello copy.jpg"
+                    alt="Photo of Cartagena's cathedral at the background and some colonial style houses"
+                    width="1920"
+                    height="2193"
+                  />
+                  <div class="card__content | flow">
+                    <div class="card__content--container | flow">
+                      <h2 class="card__title">Yello</h2>
+                      <div class="card__description">
+                        <div class="white-button card__desc__top" style="padding-left: 0px !important;">
+                            <a href="#" class="white-button card__desc__top"><i class="fa fa-map-marker"></i></a>
+                            <span style="color: white; margin-left: 5px;">Hotel Yello Lantai 4. Paskal Hyper Square 23, Jl. Pasir Kaliki No.25, Bandung</span>
+                        </div>
+                        <div class="white-button card__desc__top" style="padding-left: 0px !important;">
+                            <a href="#" class="white-button card__desc__top"><i class="fa fa-clock-o"></i></a>
+                            <span style="color: white; margin-left: 5px;">08.00 | 10.00</span>
+                        </div>
+                        <hr>
+                        <!-- CP -->
+                        <div class="row">
+                          <div class="col-md-12 p-0">
+                            <div class="col-md-8 pr-0">
+                              <div class="white-button card__desc__top" style="padding-left: 0px !important;">
+                                  <a href="#" class="white-button card__desc__top"><i class="fa fa-instagram"></i></a>
+                                  <span style="color: white; margin-left: 5px;">sukawarna.yelloharris</span>
+                              </div>
+                              <div class="white-button card__desc__top" style="padding-left: 0px !important;">
+                                  <a href="#" class="white-button card__desc__top"><i class="fa fa-phone"></i></a>
+                                  <span style="color: white; margin-left: 5px;">08566204451</span>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <!-- END CP -->
+                      </div>
+                    </div>
                   </div>
                 </article>
             </div>

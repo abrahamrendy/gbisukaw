@@ -27,7 +27,11 @@
                 <div class="col-md-6">
                     <h3>Ibadah Raya Online</h3>
                     <div class="line-dec"></div>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent tristique nisi at eleifend porta. Nulla velit quam, gravida non est vitae, auctor tincidunt metus. Etiam nec mollis est. Mauris in diam hendrerit, laoreet metus sed, malesuada lectus. Cras commodo aliquam lacus, ac vestibulum nulla bibendum nec. Donec mattis porta est id ornare. Quisque a neque ac neque ullamcorper malesuada. Proin ullamcorper sem sit amet dui tincidunt, consectetur vulputate eros pretium. Donec mattis nulla et orci pulvinar aliquam. Ut scelerisque, nisl lacinia elementum porttitor, libero ex luctus diam, sit amet hendrerit ipsum ex ut nulla. Ut eu feugiat massa. Nam sed tincidunt felis, et lacinia nisl.</p>
+                    <p>Ibadah Raya secara onsite terakhir sebelum masa pandemi dimulai, terlaksana pada tanggal 15 Maret 2020.</p>
+                    <p>Sesudah itu, mengikuti himbauan Pemerintah, maka Ibadah Online pertama mulai diadakan pada tanggal 22 Maret 2020.
+                    </p>
+                    <p>(Puji Tuhan, mulai tanggal 07 Maret 2021, Ibadah Onsite kembali diadakan di beberapa cabang.  Dan dengan bertahap, saat ini semua cabang telah kembali melaksanakan ibadah secara onsite.)</p>
+                    <p>Adapun Ibadah Raya secara online tetap dipertahankan, sehingga jemaat yang membutuhkan pelayanan ini tetap dapat beribadah di mana pun mereka berada.</p>
                     <ul>
                         <li>
                             <div class="black-button">
@@ -48,7 +52,9 @@
                 <div class="col-md-6">
                     <h3>Healing Worship Online</h3>
                     <div class="line-dec"></div>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent tristique nisi at eleifend porta. Nulla velit quam, gravida non est vitae, auctor tincidunt metus. Etiam nec mollis est. Mauris in diam hendrerit, laoreet metus sed, malesuada lectus. Cras commodo aliquam lacus, ac vestibulum nulla bibendum nec. Donec mattis porta est id ornare. Quisque a neque ac neque ullamcorper malesuada. Proin ullamcorper sem sit amet dui tincidunt, consectetur vulputate eros pretium. Donec mattis nulla et orci pulvinar aliquam. Ut scelerisque, nisl lacinia elementum porttitor, libero ex luctus diam, sit amet hendrerit ipsum ex ut nulla. Ut eu feugiat massa. Nam sed tincidunt felis, et lacinia nisl.</p>
+                    <p>Di tengah-tengah masa pandemi yang mencekam dan untuk menjawab kebutuhan jemaat akan jamahan Tuhan di tempatnya masing-masing, terutama bagi mereka yang terdampak oleh Covid-19.</p>
+                    <p>Maka sesuai dengan himbauan Pemerintah, GBI Sukawarna mulai mengadakan Ibadah Healing Worship secara online pada tanggal 08 Juli 2020.</p>
+                    <p>Melalui ibadah online ini jemaat dilayani dalam pujian penyembahan serta firman yang menghibur dan menguatkan.</p>
                     <ul>
                         <li>
                             <div class="white-button">

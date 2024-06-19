@@ -1,5 +1,11 @@
 @include('header')
 
+<style>
+    h4{
+        font-size: 17px;
+    }
+</style>
+
 <div id="what-we-do">
     <div class="container">
         <div class="row">
@@ -66,19 +72,27 @@
         </div>
         <br><br><br>
         <div class="row">
-            <div class="col-md-12">
-                <div style="height: 400px; background-color: #7F7F7F;">
-
+            <div class="col-md-12 text-center">
+                <div style="height: 400px;">
+                    <img
+                    src="{{url('/img/wagem')}}/1718700134377.jpg"
+                    alt="Pdt. DR. Ir. Niko Njotorahardjo"
+                    height="400px"
+                  />
                 </div>
                 <div>
-                    <h4><b>Pdt. DR. Niko Njotorahardjo</b></h4>
+                    <h4><b>Pdt. DR. Ir. Niko Njotorahardjo</b></h4>
                     <p>Gembala Sidang</p>
                 </div>
             </div>
 
             <div class="col-md-4">
-                <div style="height: 400px; background-color: #7F7F7F;">
-
+                <div style="height: 400px;">
+                    <img
+                    src="{{url('/img/wagem')}}/1718700390540.jpg"
+                    alt="Pdt. Benny Gunawan"
+                    height="400px"
+                  />
                 </div>
                 <div>
                     <h4><b>Pdt. Benny Gunawan</b></h4>
@@ -87,27 +101,39 @@
             </div>
 
             <div class="col-md-4">
-                <div style="height: 400px; background-color: #7F7F7F;">
-
-                </div>
-                <div>
-                    <h4><b>Pdt. Karta Laksana Kamarga</b></h4>
-                    <p>Wakil Gembala</p>
-                </div>
-            </div>
-
-            <div class="col-md-4">
-                <div style="height: 400px; background-color: #7F7F7F;">
-
+                <div style="height: 400px;">
+                    <img
+                    src="{{url('/img/wagem')}}/1718266981415.jpg"
+                    alt="Pdt. Jhonny Lumanto"
+                    height="400px"
+                  />
                 </div>
                 <div>
                     <h4><b>Pdt. Jhonny Lumanto</b></h4>
                     <p>Wakil Gembala</p>
                 </div>
             </div>
-            <div class="col-md-4">
-                <div style="height: 400px; background-color: #7F7F7F;">
 
+            <div class="col-md-4">
+                <div style="height: 400px;">
+                    <img
+                    src="{{url('/img/wagem')}}/1718266261921.jpg"
+                    alt="Pdt. Karta Laksana Kamarga"
+                    height="400px"
+                  />
+                </div>
+                <div>
+                    <h4><b>Pdt. Karta Laksana Kamarga</b></h4>
+                    <p>Wakil Gembala</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div style="height: 400px;">
+                    <img
+                    src="{{url('/img/wagem')}}/1718265839603.jpg"
+                    alt="Pdt. Daniel Arief Sugianto"
+                    height="400px"
+                  />
                 </div>
                 <div>
                     <h4><b>Pdt. Daniel Arief Sugianto</b></h4>
@@ -116,23 +142,33 @@
             </div>
 
             <div class="col-md-4">
-                <div style="height: 400px; background-color: #7F7F7F;">
-
-                </div>
-                <div>
-                    <h4><b>Pdt. Stevannus Yordan</b></h4>
-                    <p>Wakil Gembala</p>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div style="height: 400px; background-color: #7F7F7F;">
-
+                <div style="height: 400px;">
+                    <img
+                    src="{{url('/img/wagem')}}/1718265102262.jpg"
+                    alt="Pdt. Fandy M. Latif"
+                    height="400px"
+                  />
                 </div>
                 <div>
                     <h4><b>Pdt. Fandy M. Latif</b></h4>
                     <p>Wakil Gembala</p>
                 </div>
             </div>
+
+            <div class="col-md-4">
+                <div style="height: 400px;">
+                    <img
+                    src="{{url('/img/wagem')}}/1718264224851.jpg"
+                    alt="Pdt. Stevannus Yordan Tjakrawisaksana"
+                    height="400px"
+                  />
+                </div>
+                <div>
+                    <h4><b>Pdt. Stevannus Yordan Tjakrawisaksana</b></h4>
+                    <p>Wakil Gembala</p>
+                </div>
+            </div>
+            
         </div>
     </div>
 </div>
