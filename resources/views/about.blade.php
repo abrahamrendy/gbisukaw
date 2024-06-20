@@ -31,6 +31,23 @@
                     <h3>Tentang Kami</h3>
                     <h4>Gereja Bethel Indonesia</h4>
                     <div class="line-dec"></div>
+                    <br><br>
+                    <div class="text-left">
+                        <img
+                        src="{{url('/img')}}/Original_Logo_of_Gereja_Bethel_Indonesia.svg.png"
+                        alt="Gereja Bethel Indonesia"
+                        width= "30%"
+                        />
+                        <!-- <br>
+                        <br>
+                        <br> -->
+                        <img
+                        src="{{url('/img')}}/black_logo.png"
+                        alt="GBI Sukawarna"
+                        width= "50%"
+                        style="margin-left:30px"
+                        />
+                    </div>
                 </div>
                 <div class="col-md-6">
                     <div>

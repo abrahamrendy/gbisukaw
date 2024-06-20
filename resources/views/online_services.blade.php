@@ -35,7 +35,7 @@
                     <ul>
                         <li>
                             <div class="black-button">
-                                <a href="#">Find Out More</a>
+                                <a href="https://www.youtube.com/@gbisukawarna9969" target="_blank">Find Out More</a>
                             </div>
                         </li>
                     </ul>
@@ -58,7 +58,7 @@
                     <ul>
                         <li>
                             <div class="white-button">
-                                <a href="#">Find Out More</a>
+                                <a href="https://www.youtube.com/@gbisukawarna9969" target="_blank">Find Out More</a>
                             </div>
                         </li>
                     </ul>
@@ -85,7 +85,7 @@
                     <ul>
                         <li>
                             <div class="black-button">
-                                <a href="#">Find Out More</a>
+                                <a href="https://www.youtube.com/@legacyyouthgbisukawarna" target="_blank">Find Out More</a>
                             </div>
                         </li>
                     </ul>
@@ -106,13 +106,13 @@
                     <ul>
                         <li>
                             <div class="white-button">
-                                <a href="#">Find Out More</a>
+                                <a href="https://www.youtube.com/@faithhopeloveministry-kids6902" target="_blank">Find Out More</a>
                             </div>
                         </li>
                     </ul>
                 </div>
                 <div class="col-md-6">
-                    <iframe src="https://www.youtube.com/embed/videoseries?si=G11c9x-bJlA4f8aJ&amp;list=PLbeerQLV3Lb5yPkgBovLyJE-X99m96SdH" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    <iframe src="https://www.youtube.com/embed/videoseries?si=G11c9x-bJlA4f8aJ&amp;list=UULFFd98LIkLX8mGJWGJp1KW6g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                 </div>
             </div>
         </div>

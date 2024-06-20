@@ -137,7 +137,8 @@
                             </div>
                             <div class="col-md-3 col-sm-6 col-xs-12">
                                 <div class="service-item third-service fab">
-                                    <iframe src="https://www.youtube.com/embed/videoseries?si=G11c9x-bJlA4f8aJ&amp;list=PLbeerQLV3Lb5yPkgBovLyJE-X99m96SdH" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                                    <iframe src="https://www.youtube.com/embed/videoseries?si=G11c9x-bJlA4f8aJ&amp;list=UULFFd98LIkLX8mGJWGJp1KW6g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
                                     <!-- <div class="icon"></div> -->
                                     <h4>Kids GBI Sukawarna</h4>
                                     <div class="black-button">

@@ -10,10 +10,13 @@
                     <div class="social-icons">
                         <ul>
                             <li>
-                                <a href="#"><i class="fa fa-facebook"></i></a>
+                                <a href="https://apps.apple.com/id/app/gbi-sukawarna/id6457256279" target="_blank"><i class="fa fa-apple"></i></a>
                             </li>
                             <li>
-                                <a href="#"><i class="fa fa-instagram"></i></a>
+                                <a href="https://play.google.com/store/apps/details?id=org.shiftsoft.gbisukawarna&pcampaignid=web_share" target="_blank"><i class="fa fa-android"></i></a>
+                            </li>
+                            <li>
+                                <a href="https://www.instagram.com/gbisukawarna/?hl=id" target=”_blank”><i class="fa fa-instagram"></i></a>
                             </li>
                             <li>
                                 <a href="#"><i class="fa fa-whatsapp"></i></a>
