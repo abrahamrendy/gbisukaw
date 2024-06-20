@@ -22,6 +22,6 @@ class ContactUsController extends Controller
      */
     public function index()
     {
-        return view('contact_us');
+        return view('contact_us', ['title'=>"Contact Us"]);
     }
 }

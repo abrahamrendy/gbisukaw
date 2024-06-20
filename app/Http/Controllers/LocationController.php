@@ -22,6 +22,6 @@ class LocationController extends Controller
      */
     public function index()
     {
-        return view('location');
+        return view('location', ['title'=>"Location"]);
     }
 }

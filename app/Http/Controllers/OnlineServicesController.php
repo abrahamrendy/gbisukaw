@@ -22,6 +22,6 @@ class OnlineServicesController extends Controller
      */
     public function index()
     {
-        return view('online_services');
+        return view('online_services', ['title'=>"Online Services"]);
     }
 }

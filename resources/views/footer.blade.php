@@ -19,7 +19,7 @@
                                 <a href="https://www.instagram.com/gbisukawarna/?hl=id" target=”_blank”><i class="fa fa-instagram"></i></a>
                             </li>
                             <li>
-                                <a href="#"><i class="fa fa-whatsapp"></i></a>
+                                <a href="https://wa.me/6281221108889" target="_blank"><i class="fa fa-whatsapp"></i></a>
                             </li>
                         </ul>
                     </div>

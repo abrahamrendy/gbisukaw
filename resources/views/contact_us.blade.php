@@ -51,7 +51,7 @@
                     <ul>
                         <li>
                             <div class="black-button">
-                                <a href="https://www.instagram.com/gbisukawarna/?hl=id" target=”_blank” class="black-button"><i class="fa fa-whatsapp"></i> WhatsApp</a>
+                                <a href="https://wa.me/6281221108889" target=”_blank” class="black-button"><i class="fa fa-whatsapp"></i> WhatsApp</a>
                             </div>
                         </li>
                         <li>

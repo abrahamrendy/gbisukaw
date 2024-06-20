@@ -32,6 +32,6 @@ class ArticleController extends Controller
 
     public function three_s()
     {
-        return view('3s');
+        return view('3s', ['title'=>"3S"]);
     }
 }
