@@ -102,7 +102,11 @@
                 <div class="col-md-6">
                     <h3>Kids GBI Sukawarna</h3>
                     <div class="line-dec"></div>
-                    <p>Ibadah Sekolah Minggu di GBI Sukawarna adalah kegiatan keagamaan khusus untuk anak-anak yang bertujuan mengenalkan dan memperdalam pemahaman mereka tentang ajaran Kristen. Kegiatan ini mencakup pengajaran cerita-cerita Alkitab, puji-pujian dengan lagu-lagu rohani anak-anak, serta berbagai aktivitas kreatif seperti mewarnai dan membuat kerajinan tangan. Anak-anak diajarkan nilai-nilai Kristiani seperti kasih, pengampunan, dan kebaikan, sambil diberi kesempatan untuk berinteraksi dan bersosialisasi dengan teman-teman seiman. Melalui bimbingan guru-guru yang berdedikasi, mereka dibantu untuk mengembangkan hubungan pribadi dengan Tuhan Yesus dan membangun fondasi iman yang kuat. Ibadah ini biasanya berlangsung bersamaan dengan ibadah umum gereja pada hari Minggu, di ruangan khusus untuk anak-anak.</p>
+                    <p>Suatu wadah untuk menggembalakan anak-anak, dengan cara yang dimengerti anak-anak, untuk membawa anak-anak percaya kepada Tuhan Yesus, diselamatkan serta menjadi berkat melalui iman, pengharapan dan kasih (1 Korintus 13:13)  di manapun mereka berada.</p>
+
+                    <p><span style="font-style: italic;">1 Korintus 13:13 <br>Demikianlah tinggal ketiga hal ini, yaitu iman, pengharapan dan kasih, dan yang paling besar di antaranya ialah kasih.</span></p>
+
+                    <img src = "{{url('/img')}}/logo fhl.jpg" width="160px" style="margin-bottom: 15px;">
                     <ul>
                         <li>
                             <div class="white-button">
