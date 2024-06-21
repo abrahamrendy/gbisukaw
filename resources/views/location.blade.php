@@ -69,6 +69,49 @@
       padding-left: 0px;
     }
 
+    .nav>li {
+      display: inline-block;
+      margin-top: 15px;
+    }
+
+    .nav>li>a {
+      color: #fff;
+    }
+
+    .nav .active, .nav .active>a{
+      background-color: #bbb !important;
+      color: #121212 !important;
+    }
+
+    .nav-button {
+      background-color: #404040;
+      padding: 5px 10px;
+      color: #fff;
+      font-size: 15px;
+      font-weight: 500;
+      text-transform: uppercase;
+      text-decoration: none;
+      border-radius: 50px;
+      transition: all 0.5s;
+    }
+
+    .nav-button:hover, .nav>li>a:hover {
+      background-color: #bbb !important;
+      color: #121212 !important;
+    }
+
+    .nav>li>a:hover, .nav>li>a:focus {
+      background-color: transparent !important;
+    }
+
+    .tab-content .branch {
+      display: none !important;
+    }
+
+    .tab-content .active {
+      display: block !important;
+    }
+
     /* CARD COMPONENT */
 
     .card {
@@ -245,14 +288,34 @@
 
 <div id="our-pastor" class="page-section">
     <div class="container">
-        <div class="row">
+      <div class="row">
+        <div class="col-md-12 text-center">
+          <ul class="nav" role="tablist">
+            <li class="nav-item nav-button active">
+                <a class="nav-link" data-toggle="tab" href="#tab_1" role="tab">
+                    Bandung
+                </a>
+            </li>
+
+            <li class="nav-item nav-button">
+              <!-- <div class="black-button"> -->
+                <a class="nav-link" data-toggle="tab" href="#tab_2" role="tab">
+                  Luar Kota Bandung
+                </a>
+              <!-- </div> -->
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="tab-content">
+        <div class="branch row active in fade" id="tab_1">
             <!-- ARUNA -->
             <div class="col-md-4">
                 <article class="card">
                   <img
                     class="card__background"
                     src="{{url('/img')}}/Aruna copy.jpg"
-                    alt="Photo of Cartagena's cathedral at the background and some colonial style houses"
+                    alt="Aruna Schedule"
                     width="1920"
                     height="2193"
                   />
@@ -272,7 +335,7 @@
                         <!-- CP -->
                         <div class="row">
                           <div class="col-md-12 p-0">
-                            <div class="col-md-6 pr-0">
+                            <div class="col-md-6 col-sm-6 col-xs-6 pr-0">
                               <div class="white-button" style="padding-left: 0px !important;">
                                   <a href="#" class="white-button"><i class="fa fa-instagram"></i></a>
                                   <span style="color: white; margin-left: 5px;">sukawarna.aruna1</span>
@@ -282,7 +345,7 @@
                                   <span style="color: white; margin-left: 5px;">08993228226</span>
                               </div>
                             </div>
-                            <div class="col-md-6 pr-0">
+                            <div class="col-md-6 col-sm-6 col-xs-6 pr-0">
                               <div class="white-button" style="padding-left: 0px !important;">
                                   <a href="#" class="white-button"><i class="fa fa-instagram"></i></a>
                                   <span style="color: white; margin-left: 5px;">gbiaruna2</span>
@@ -297,7 +360,7 @@
                         <hr>
                         <div class="row">
                           <div class="col-md-12 p-0">
-                            <div class="col-md-6 pr-0">
+                            <div class="col-md-6 col-sm-6 col-xs-6 pr-0">
                               <div class="white-button" style="padding-left: 0px !important;">
                                   <a href="#" class="white-button"><i class="fa fa-instagram"></i></a>
                                   <span style="color: white; margin-left: 5px;">gbiaruna3pm </span>
@@ -307,7 +370,7 @@
                                   <span style="color: white; margin-left: 5px;">089606033888</span>
                               </div>
                             </div>
-                            <div class="col-md-6 pr-0">
+                            <div class="col-md-6 col-sm-6 col-xs-6 pr-0">
                               <div class="white-button" style="padding-left: 0px !important;">
                                   <a href="#" class="white-button"><i class="fa fa-instagram"></i></a>
                                   <span style="color: white; margin-left: 5px;">sukawarna.aruna5</span>
@@ -332,7 +395,7 @@
                   <img
                     class="card__background"
                     src="{{url('/img')}}/Baranangsiang copy.jpg"
-                    alt="Photo of Cartagena's cathedral at the background and some colonial style houses"
+                    alt="Baranangsiang Schedule"
                     width="1920"
                     height="2193"
                   />
@@ -352,7 +415,7 @@
                         <!-- CP -->
                         <div class="row">
                           <div class="col-md-12 p-0">
-                            <div class="col-md-6 pr-0">
+                            <div class="col-md-6 col-sm-6 col-xs-6 pr-0">
                               <div class="white-button" style="padding-left: 0px !important;">
                                   <a href="#" class="white-button"><i class="fa fa-instagram"></i></a>
                                   <span style="color: white; margin-left: 5px;">sukawarna.gbi.baranangsiang</span>
@@ -362,7 +425,7 @@
                                   <span style="color: white; margin-left: 5px;">087819717181</span>
                               </div>
                             </div>
-                            <div class="col-md-6 pr-0">
+                            <div class="col-md-6 col-sm-6 col-xs-6 pr-0">
                               <div class="white-button" style="padding-left: 0px !important;">
                                   <a href="#" class="white-button"><i class="fa fa-instagram"></i></a>
                                   <span style="color: white; margin-left: 5px;">nextgen.baranangsiang</span>
@@ -377,7 +440,7 @@
                         <hr>
                         <div class="row">
                           <div class="col-md-12 p-0">
-                            <div class="col-md-6 pr-0">
+                            <div class="col-md-6 col-sm-6 col-xs-6 pr-0">
                               <div class="white-button" style="padding-left: 0px !important;">
                                   <a href="#" class="white-button"><i class="fa fa-instagram"></i></a>
                                   <span style="color: white; margin-left: 5px;">sukawarna.barsi3pm</span>
@@ -387,7 +450,7 @@
                                   <span style="color: white; margin-left: 5px;">082115252533</span>
                               </div>
                             </div>
-                            <div class="col-md-6 pr-0">
+                            <div class="col-md-6 col-sm-6 col-xs-6 pr-0">
                               <div class="white-button" style="padding-left: 0px !important;">
                                   <a href="#" class="white-button"><i class="fa fa-instagram"></i></a>
                                   <span style="color: white; margin-left: 5px;">sukawarna.bec</span>
@@ -412,7 +475,7 @@
                   <img
                     class="card__background"
                     src="{{url('/img')}}/Dago copy.jpg"
-                    alt="Photo of Cartagena's cathedral at the background and some colonial style houses"
+                    alt="Dago Schedule"
                     width="1920"
                     height="2193"
                   />
@@ -457,7 +520,7 @@
                   <img
                     class="card__background"
                     src="{{url('/img')}}/Gedebage copy.jpg"
-                    alt="Photo of Cartagena's cathedral at the background and some colonial style houses"
+                    alt="Gedebage Schedule"
                     width="1920"
                     height="2193"
                   />
@@ -492,7 +555,6 @@
                         <!-- END CP -->
                       </div>
                     </div>
-                    <button class="card__button">Read more</button>
                   </div>
                 </article>
             </div>
@@ -503,7 +565,7 @@
                   <img
                     class="card__background"
                     src="{{url('/img')}}/Harris Pop copy.jpg"
-                    alt="Photo of Cartagena's cathedral at the background and some colonial style houses"
+                    alt="Harris Pop Schedule"
                     width="1920"
                     height="2193"
                   />
@@ -548,7 +610,7 @@
                   <img
                     class="card__background"
                     src="{{url('/img')}}/Istana Plaza copy.jpg"
-                    alt="Photo of Cartagena's cathedral at the background and some colonial style houses"
+                    alt="Istana Plaza Schedule"
                     width="1920"
                     height="2193"
                   />
@@ -593,7 +655,7 @@
                   <img
                     class="card__background"
                     src="{{url('/img')}}/Istana Regensi copy.jpg"
-                    alt="Photo of Cartagena's cathedral at the background and some colonial style houses"
+                    alt="Istana Regensi Schedule"
                     width="1920"
                     height="2193"
                   />
@@ -638,7 +700,7 @@
                   <img
                     class="card__background"
                     src="{{url('/img')}}/Paris van Java copy.jpg"
-                    alt="Photo of Cartagena's cathedral at the background and some colonial style houses"
+                    alt="Paris van Java Schedule"
                     width="1920"
                     height="2193"
                   />
@@ -683,7 +745,7 @@
                   <img
                     class="card__background"
                     src="{{url('/img')}}/Piset copy.jpg"
-                    alt="Photo of Cartagena's cathedral at the background and some colonial style houses"
+                    alt="Piset Schedule"
                     width="1920"
                     height="2193"
                   />
@@ -743,7 +805,7 @@
                   <img
                     class="card__background"
                     src="{{url('/img')}}/Trans copy.jpg"
-                    alt="Photo of Cartagena's cathedral at the background and some colonial style houses"
+                    alt="Trans Schedule"
                     width="1920"
                     height="2193"
                   />
@@ -788,7 +850,7 @@
                   <img
                     class="card__background"
                     src="{{url('/img')}}/Yello copy.jpg"
-                    alt="Photo of Cartagena's cathedral at the background and some colonial style houses"
+                    alt="Yello Schedule"
                     width="1920"
                     height="2193"
                   />
@@ -828,6 +890,12 @@
             </div>
             
         </div>
+
+        <div class="branch row fade" id="tab_2">
+            <h3>Under construction, please come again later.</h3>
+            
+        </div>
+      </div>
     </div>
 </div>
 

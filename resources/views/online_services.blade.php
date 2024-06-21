@@ -81,7 +81,7 @@
                 <div class="col-md-6">
                     <h3>Legacy Youth Service</h3>
                     <div class="line-dec"></div>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent tristique nisi at eleifend porta. Nulla velit quam, gravida non est vitae, auctor tincidunt metus. Etiam nec mollis est. Mauris in diam hendrerit, laoreet metus sed, malesuada lectus. Cras commodo aliquam lacus, ac vestibulum nulla bibendum nec. Donec mattis porta est id ornare. Quisque a neque ac neque ullamcorper malesuada. Proin ullamcorper sem sit amet dui tincidunt, consectetur vulputate eros pretium. Donec mattis nulla et orci pulvinar aliquam. Ut scelerisque, nisl lacinia elementum porttitor, libero ex luctus diam, sit amet hendrerit ipsum ex ut nulla. Ut eu feugiat massa. Nam sed tincidunt felis, et lacinia nisl.</p>
+                    <p>Legacy Youth Service merupakan wadah anak-anak muda yang memiliki visi untuk terkoneksi dengan Tuhan dan sesama (<b>Attach</b>), membangun gaya hidup atas dasar kasih (<b>Love</b>), memiliki identitas sebagai Garam & Terang (<b>Identity</b>), menghidupi kehidupan dimuridkan dan memuridkan (<b>Veil</b>), serta diperlengkapi dan diberdayakan dalam kuasa Roh Kudus (<b>Empower</b>).</p>
                     <ul>
                         <li>
                             <div class="black-button">

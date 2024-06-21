@@ -82,7 +82,7 @@
         <div class="row">
             <div class="col-md-12">
                 <div class="section-heading">
-                    <h3>Our Pastor</h3>
+                    <h3>Our Pastors</h3>
                     <div class="line-dec"></div>
                 </div>
             </div>
@@ -103,7 +103,7 @@
                 </div>
             </div>
 
-            <div class="col-md-4">
+            <div class="col-md-4 text-center">
                 <div style="height: 400px;">
                     <img
                     src="{{url('/img/wagem')}}/1718700390540.jpg"
@@ -117,7 +117,7 @@
                 </div>
             </div>
 
-            <div class="col-md-4">
+            <div class="col-md-4 text-center">
                 <div style="height: 400px;">
                     <img
                     src="{{url('/img/wagem')}}/1718266981415.jpg"
@@ -131,7 +131,7 @@
                 </div>
             </div>
 
-            <div class="col-md-4">
+            <div class="col-md-4 text-center">
                 <div style="height: 400px;">
                     <img
                     src="{{url('/img/wagem')}}/1718266261921.jpg"
@@ -144,7 +144,7 @@
                     <p>Wakil Gembala</p>
                 </div>
             </div>
-            <div class="col-md-4">
+            <div class="col-md-4 text-center">
                 <div style="height: 400px;">
                     <img
                     src="{{url('/img/wagem')}}/1718265839603.jpg"
@@ -158,7 +158,7 @@
                 </div>
             </div>
 
-            <div class="col-md-4">
+            <div class="col-md-4 text-center">
                 <div style="height: 400px;">
                     <img
                     src="{{url('/img/wagem')}}/1718265102262.jpg"
@@ -167,12 +167,12 @@
                   />
                 </div>
                 <div>
-                    <h4><b>Pdt. Fandy M. Latif</b></h4>
+                    <h4><b>Pdt. Fandy Mulya Latif</b></h4>
                     <p>Wakil Gembala</p>
                 </div>
             </div>
 
-            <div class="col-md-4">
+            <div class="col-md-4 text-center">
                 <div style="height: 400px;">
                     <img
                     src="{{url('/img/wagem')}}/1718264224851.jpg"

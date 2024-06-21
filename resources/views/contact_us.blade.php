@@ -47,7 +47,6 @@
                     <br>
 
                     <hr style="border-top: 1px solid black;">
-                    <br>
                     <ul>
                         <li>
                             <div class="black-button">
