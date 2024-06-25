@@ -154,6 +154,14 @@
     </div>
 </div>
 
+<div id="blog" class="page-section">
+    <div class="container">
+        <div class="row">
+            <div class="embedsocial-hashtag" data-ref="419df1f7122fb3f7cb4b0e8031885d51c96e74d2"> <a class="feed-powered-by-es feed-powered-by-es-feed-img" href="https://embedsocial.com/social-media-aggregator/" target="_blank" title="Instagram widget"> <img src="https://embedsocial.com/cdn/images/embedsocial-icon.png" alt="EmbedSocial"> Instagram widget </a> </div> <script> (function(d, s, id) { var js; if (d.getElementById(id)) {return;} js = d.createElement(s); js.id = id; js.src = "https://embedsocial.com/cdn/ht.js"; d.getElementsByTagName("head")[0].appendChild(js); }(document, "script", "EmbedSocialHashtagScript")); </script>
+        </div>
+    </div>
+</div>
+
 <div id="blog" class="page-section" style="display: none">
     <div class="container">
         <div class="row">
