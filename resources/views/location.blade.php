@@ -571,11 +571,11 @@
                   />
                   <div class="card__content | flow">
                     <div class="card__content--container | flow">
-                      <h2 class="card__title">Harris Pop</h2>
+                      <h2 class="card__title">Festival City Link</h2>
                       <div class="card__description">
                         <div class="white-button card__desc__top" style="padding-left: 0px !important;">
                             <a href="#" class="white-button card__desc__top"><i class="fa fa-map-marker"></i></a>
-                            <span style="color: white; margin-left: 5px;">Hotel Harris, Jl. Peta No.241, Bandung</span>
+                            <span style="color: white; margin-left: 5px;">Festival City Link Mall, Jl. Peta No.241, Bandung</span>
                         </div>
                         <div class="white-button card__desc__top" style="padding-left: 0px !important;">
                             <a href="#" class="white-button card__desc__top"><i class="fa fa-clock-o"></i></a>
@@ -799,27 +799,27 @@
                 </article>
             </div>
 
-            <!-- TRANS -->
+            <!-- PULLMAN -->
             <div class="col-md-4">
                 <article class="card">
                   <img
                     class="card__background"
-                    src="{{url('/img')}}/Trans copy.jpg"
-                    alt="Trans Schedule"
+                    src="{{url('/img')}}/Pullman copy.jpg"
+                    alt="Pullman Schedule"
                     width="1920"
                     height="2193"
                   />
                   <div class="card__content | flow">
                     <div class="card__content--container | flow">
-                      <h2 class="card__title">Trans</h2>
+                      <h2 class="card__title">Pullman</h2>
                       <div class="card__description">
                         <div class="white-button card__desc__top" style="padding-left: 0px !important;">
                             <a href="#" class="white-button card__desc__top"><i class="fa fa-map-marker"></i></a>
-                            <span style="color: white; margin-left: 5px;">Trans Studio Mall, Jl. Gatot Subroto No.289, Bandung</span>
+                            <span style="color: white; margin-left: 5px;">Pullman Hotel Level 3 - Gastro, Jl. Diponegoro No.27, Bandung</span>
                         </div>
                         <div class="white-button card__desc__top" style="padding-left: 0px !important;">
                             <a href="#" class="white-button card__desc__top"><i class="fa fa-clock-o"></i></a>
-                            <span style="color: white; margin-left: 5px;">09.00 | 11.00</span>
+                            <span style="color: white; margin-left: 5px;">09.30 | 16.30</span>
                         </div>
                         <hr>
                         <!-- CP -->
@@ -828,11 +828,11 @@
                             <div class="col-md-8 pr-0">
                               <div class="white-button card__desc__top" style="padding-left: 0px !important;">
                                   <a href="#" class="white-button card__desc__top"><i class="fa fa-instagram"></i></a>
-                                  <span style="color: white; margin-left: 5px;">sukawarna.trans</span>
+                                  <span style="color: white; margin-left: 5px;">gbi.lightofgod</span>
                               </div>
                               <div class="white-button card__desc__top" style="padding-left: 0px !important;">
                                   <a href="#" class="white-button card__desc__top"><i class="fa fa-phone"></i></a>
-                                  <span style="color: white; margin-left: 5px;">08993228226</span>
+                                  <span style="color: white; margin-left: 5px;">082116610650</span>
                               </div>
                             </div>
                           </div>

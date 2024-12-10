@@ -3,7 +3,7 @@
 <div id="what-we-do">
     <div class="container">
         <div class="row">
-            <img src="{{url('/img')}}/section-1.png">
+            <img src="{{url('/img')}}/TEMA 2025.jpg">
             <div class="col-md-6" style="display: none">
                 <div class="left-text">
                     <h4>New offers just arrived,<br>Get it now and take profit.</h4>
@@ -74,7 +74,7 @@
         <div class="row">
             <div class="col-md-12">
                 <div class="col-md-12" style="text-align: center;">
-                    <iframe width="711.2" height="400" src="https://www.youtube.com/embed/whdPWYHVdMg?si=sVPVqWtq5fSA8nWs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    <iframe width="711.2" height="400" src="https://www.youtube.com/embed/EgvwataaSYc?si=Rjjo7CZL5ITzLUDT" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                     <!-- <ul>
                         <li>
                             <div class="black-button">
