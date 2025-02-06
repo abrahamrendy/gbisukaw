@@ -74,7 +74,7 @@
         <div class="row">
             <div class="col-md-12">
                 <div class="col-md-12" style="text-align: center;">
-                    <iframe width="711.2" height="400" src="https://www.youtube.com/embed/EgvwataaSYc?si=Rjjo7CZL5ITzLUDT" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    <iframe width="711.2" height="400" src="https://www.youtube.com/embed/eozC2-IpV1Y?si=UkizHBprKvxirkUr" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                     <!-- <ul>
                         <li>
                             <div class="black-button">
