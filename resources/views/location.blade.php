@@ -823,6 +823,86 @@
                 </article>
             </div>
 
+            <!-- SOETTA -->
+            <div class="col-md-4">
+                <article class="card">
+                  <img
+                    class="card__background"
+                    src="{{url('/img')}}/Sukhat copy.jpg"
+                    alt="Aruna Schedule"
+                    width="1920"
+                    height="2193"
+                  />
+                  <div class="card__content | flow">
+                    <div class="card__content--container | flow">
+                      <h2 class="card__title">Soekarno-Hatta</h2>
+                      <div class="card__description">
+                        <div class="white-button card__desc__top" style="padding-left: 0px !important;">
+                            <a href="#" class="white-button card__desc__top"><i class="fa fa-map-marker"></i></a>
+                            <span style="color: white; margin-left: 5px;">Jl. Karasak Barat (Samping LP Banceuy)</span>
+                        </div>
+                        <div class="white-button card__desc__top" style="padding-left: 0px !important;">
+                            <a href="#" class="white-button"><i class="fa fa-clock-o"></i></a>
+                            <span style="color: white; margin-left: 5px;">07.50 | 10.00 | 12.00 | 15.00</span>
+                        </div>
+                        <hr>
+                        <!-- CP -->
+                        <div class="row">
+                          <div class="col-md-12 p-0">
+                            <div class="col-md-6 col-sm-6 col-xs-6 pr-0">
+                              <div class="white-button" style="padding-left: 0px !important;">
+                                  <a href="#" class="white-button"><i class="fa fa-instagram"></i></a>
+                                  <span style="color: white; margin-left: 5px;">gbisoekarnohatta</span>
+                              </div>
+                              <div class="white-button" style="padding-left: 0px !important;">
+                                  <a href="#" class="white-button"><i class="fa fa-phone"></i></a>
+                                  <span style="color: white; margin-left: 5px;">088809555647</span>
+                              </div>
+                            </div>
+                            <div class="col-md-6 col-sm-6 col-xs-6 pr-0">
+                              <div class="white-button" style="padding-left: 0px !important;">
+                                  <a href="#" class="white-button"><i class="fa fa-instagram"></i></a>
+                                  <span style="color: white; margin-left: 5px;">sukawarna.soekhat2</span>
+                              </div>
+                              <div class="white-button" style="padding-left: 0px !important;">
+                                  <a href="#" class="white-button"><i class="fa fa-phone"></i></a>
+                                  <span style="color: white; margin-left: 5px;">085155304220</span>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <hr>
+                        <div class="row">
+                          <div class="col-md-12 p-0">
+                            <div class="col-md-6 col-sm-6 col-xs-6 pr-0">
+                              <div class="white-button" style="padding-left: 0px !important;">
+                                  <a href="#" class="white-button"><i class="fa fa-instagram"></i></a>
+                                  <span style="color: white; margin-left: 5px;">sukawarna.soekhat3</span>
+                              </div>
+                              <div class="white-button" style="padding-left: 0px !important;">
+                                  <a href="#" class="white-button"><i class="fa fa-phone"></i></a>
+                                  <span style="color: white; margin-left: 5px;">081394244162</span>
+                              </div>
+                            </div>
+                            <div class="col-md-6 col-sm-6 col-xs-6 pr-0">
+                              <div class="white-button" style="padding-left: 0px !important;">
+                                  <a href="#" class="white-button"><i class="fa fa-instagram"></i></a>
+                                  <span style="color: white; margin-left: 5px;">sukawarna.soekhat4</span>
+                              </div>
+                              <div class="white-button" style="padding-left: 0px !important;">
+                                  <a href="#" class="white-button"><i class="fa fa-phone"></i></a>
+                                  <span style="color: white; margin-left: 5px;">081231238997</span>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <!-- END CP -->
+                      </div>
+                    </div>
+                  </div>
+                </article>
+            </div>
+
             <!-- YELLO -->
             <div class="col-md-4">
                 <article class="card">
