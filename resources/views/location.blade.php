@@ -509,7 +509,7 @@
                       <div class="card__description">
                         <div class="white-button card__desc__top" style="padding-left: 0px !important;">
                             <a href="#" class="white-button card__desc__top"><i class="fa fa-map-marker"></i></a>
-                            <span style="color: white; margin-left: 5px;">Hotel Patra, Jl. Ir. H. Juanda No.132, Bandung</span>
+                            <span style="color: white; margin-left: 5px;">The Jayakarta Hotel, Jl. Ir. H. Juanda no. 381A, Dago</span>
                         </div>
                         <div class="white-button card__desc__top" style="padding-left: 0px !important;">
                             <a href="#" class="white-button card__desc__top"><i class="fa fa-clock-o"></i></a>
@@ -522,7 +522,7 @@
                             <div class="col-md-6 pr-0">
                               <div class="white-button card__desc__top" style="padding-left: 0px !important;">
                                   <a href="#" class="white-button card__desc__top"><i class="fa fa-instagram"></i></a>
-                                  <span style="color: white; margin-left: 5px;">sukawarna.dago</span>
+                                  <span style="color: white; margin-left: 5px;">sukawarnadago</span>
                               </div>
                               <div class="white-button card__desc__top" style="padding-left: 0px !important;">
                                   <a href="#" class="white-button card__desc__top"><i class="fa fa-phone"></i></a>
@@ -595,15 +595,15 @@
                   />
                   <div class="card__content | flow">
                     <div class="card__content--container | flow">
-                      <h2 class="card__title">Festival City Link</h2>
+                      <h2 class="card__title">United in Christ</h2>
                       <div class="card__description">
                         <div class="white-button card__desc__top" style="padding-left: 0px !important;">
                             <a href="#" class="white-button card__desc__top"><i class="fa fa-map-marker"></i></a>
-                            <span style="color: white; margin-left: 5px;">Festival City Link Mall, Jl. Peta No.241, Bandung</span>
+                            <span style="color: white; margin-left: 5px;">Festival City Link Mall, Lt. 3 Terrace Food & Venue, Jl. Peta No.241</span>
                         </div>
                         <div class="white-button card__desc__top" style="padding-left: 0px !important;">
                             <a href="#" class="white-button card__desc__top"><i class="fa fa-clock-o"></i></a>
-                            <span style="color: white; margin-left: 5px;">08.00 | 09.30 | 11.00</span>
+                            <span style="color: white; margin-left: 5px;">07.30 | 09.00 | 10.30 | 12.00 | 17.00</span>
                         </div>
                         <hr>
                         <!-- CP -->
@@ -612,7 +612,7 @@
                             <div class="col-md-6 pr-0">
                               <div class="white-button card__desc__top" style="padding-left: 0px !important;">
                                   <a href="#" class="white-button card__desc__top"><i class="fa fa-instagram"></i></a>
-                                  <span style="color: white; margin-left: 5px;">sukawarna.harrisyello</span>
+                                  <span style="color: white; margin-left: 5px;">uic_sukawarna</span>
                               </div>
                               <div class="white-button card__desc__top" style="padding-left: 0px !important;">
                                   <a href="#" class="white-button card__desc__top"><i class="fa fa-phone"></i></a>
@@ -932,7 +932,7 @@
                             <div class="col-md-8 pr-0">
                               <div class="white-button card__desc__top" style="padding-left: 0px !important;">
                                   <a href="#" class="white-button card__desc__top"><i class="fa fa-instagram"></i></a>
-                                  <span style="color: white; margin-left: 5px;">sukawarna.yelloharris</span>
+                                  <span style="color: white; margin-left: 5px;">sukawarna.uicyello</span>
                               </div>
                               <div class="white-button card__desc__top" style="padding-left: 0px !important;">
                                   <a href="#" class="white-button card__desc__top"><i class="fa fa-phone"></i></a>
