@@ -433,7 +433,7 @@
                         </div>
                         <div class="white-button card__desc__top" style="padding-left: 0px !important;">
                             <a href="#" class="white-button card__desc__top"><i class="fa fa-clock-o"></i></a>
-                            <span style="color: white; margin-left: 5px;">07.30 | 10.00 | 13.00 | 15.00 | 17.00 </span>
+                            <span style="color: white; margin-left: 5px;">07.00 | 09.00 | 11.15 </span>
                         </div>
                         <hr>
                         <!-- CP -->
@@ -558,7 +558,7 @@
                         </div>
                         <div class="white-button card__desc__top" style="padding-left: 0px !important;">
                             <a href="#" class="white-button card__desc__top"><i class="fa fa-clock-o"></i></a>
-                            <span style="color: white; margin-left: 5px;">09.00 | 10.45 | 12.30 | 17.00</span>
+                            <span style="color: white; margin-left: 5px;">08.30 | 10.45 | 13.00</span>
                         </div>
                         <hr>
                         <!-- CP -->
@@ -738,7 +738,7 @@
                         </div>
                         <div class="white-button card__desc__top" style="padding-left: 0px !important;">
                             <a href="#" class="white-button card__desc__top"><i class="fa fa-clock-o"></i></a>
-                            <span style="color: white; margin-left: 5px;">08.30 | 10.30 | 13.00</span>
+                            <span style="color: white; margin-left: 5px;">10.30</span>
                         </div>
                         <hr>
                         <!-- CP -->
