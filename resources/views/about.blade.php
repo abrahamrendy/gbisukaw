@@ -121,12 +121,12 @@
                 <div style="height: 400px;">
                     <img
                     src="{{url('/img/wagem')}}/1718266981415.jpg"
-                    alt="Pdt. Jhonny Lumanto"
+                    alt="Pdt. Johnny Lumanto"
                     height="400px"
                   />
                 </div>
                 <div>
-                    <h4><b>Pdt. Jhonny Lumanto</b></h4>
+                    <h4><b>Pdt. Johnny Lumanto</b></h4>
                     <p>Wakil Gembala</p>
                 </div>
             </div>
